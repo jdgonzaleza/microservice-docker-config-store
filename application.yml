@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    properties:
+      hibernates:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
